@@ -106,18 +106,16 @@ function checkRoundWinner(playerPick, computerPick) {
         computerResultElem.innerHTML = "Win!";
         computer.score++;
     }
+	
 setGamePoints();
 }
-	var playerWinner = document.getElementById('js-playerPoints');
-	var computerWinner = document.getElementById('js-computerPoints');
-	
-function whoWinner(player, computer) {
-	if (computerWinner == 10 ) {
-		document.write('Gratulacje! Wygrał Player');
-	} else if (playerWinner == 10) {
-		document.write('Bla');
+function whoIsWinner(computer, player) {
+	if (playerPointsElem == 10) {
+		alert('Winner');
+	} else if (computerPointsElem == 10) {
+		alert('WinnerT');
 	}
-	whoWinner();
+	whoIsWinner();
 }
-	
-	
+
+
