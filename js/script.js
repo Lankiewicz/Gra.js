@@ -111,11 +111,9 @@ setGamePoints();
 }
 function whoIsWinner(computer, player) {
 	if (playerPointsElem == 10) {
-		alert('Winner');
+		console.log('Winner');
 	} else if (computerPointsElem == 10) {
-		alert('WinnerT');
+		console.log('WinnerT');
 	}
-	whoIsWinner();
 }
-
-
+whoIsWinner();
